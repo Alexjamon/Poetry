@@ -1,0 +1,200 @@
+body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: url(./images/bg.jpg);
+		background-size: cover;
+	}
+
+	h1 {
+		color: #ffffff;
+		background-color: #c53232;
+		margin: -10px -8px 20px -10px;
+		padding: 20px;
+		font-size: 40px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-weight: 700;
+		border-radius: 0px 0px 15px 15px;
+		box-shadow:rgba(0, 0, 0, 0.23) 0px 3px 6px;
+		font-family: Montserrat;
+		text-align: center;
+	}
+
+	p{
+		text-align: center;
+		font-size: 22px;
+		color: white;
+	}
+	ul {
+		font-size: 20px;
+		margin: 25px auto;
+		
+	}
+
+	li {
+		color: white ;
+		font-size: 20px;
+		text-align: center;
+		list-style: none;
+		
+	}
+
+	
+	li::before{
+		content: "\2764";
+		
+		
+	}
+
+	table {
+		border-spacing: 0px;
+		margin: 20px auto;
+		width: 75%;
+		font-size: 20px;
+		box-shadow: rgba(14, 13, 13, 0.35) 0px 5px 15px;
+		border-radius: 20px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	
+	}
+
+	tr :nth-child(even){
+		background-color: transparent;
+	}
+
+	th, td {
+		padding: 5px 30px 5px 10px;
+		border-spacing: 1px;
+		font-size: 90%;
+		margin: 20px;
+		text-align: center;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+		
+		
+	}
+	
+	tr.head th {
+		color: #ffffff;
+		background-color: #c53232;
+		border-bottom: 2px solid white;
+		border-right: 1px solid white;
+		border-left: 1px solid white;
+		border-top: hidden;
+		text-align: center;
+		letter-spacing: 5px;
+		font-size: 23px;
+		text-transform: uppercase;
+		font-family: Montserrat;
+		
+	}
+	th{
+		color: white;
+
+	}
+	td{
+		color:white ;
+	}
+	td:hover {
+		background-color: #0D101C;
+		color:white;
+	}
+	
+	tr.head th:first-child {
+		-webkit-border-top-left-radius: 10px;
+		-moz-border-radius-topleft: 10px;
+		border-top-left-radius: 10px;
+	}
+
+	tr.head th:last-child {
+		-webkit-border-top-right-radius: 10px;
+		-moz-border-radius-topright: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	fieldset {
+		width: 450px;
+		border: 1px solid white;
+		background-color: transparent;
+		line-height: 1.8em;
+		margin: 20px auto;
+		border-radius: 12px;
+	}
+
+	legend {
+		font-style: courier ;
+		color: white;
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+
+
+	input[type="text"] {
+		width: 230px;
+		font-size: 18px;
+		border: 1px solid #d6d6d6;
+		padding: 2px;
+		outline: none;
+		margin: 2px;
+	}
+
+	input[type="text"]:focus,
+	input[type="text"]:hover {
+		background-color: transparent;
+		border: 1px solid #999999;
+		color: white;
+	}
+
+	input[type="submit"] {
+		border: 1px solid white;
+		background-color: transparent;
+		color: #ffffff;
+		border-radius: 5px;
+		padding: 10px;
+		margin-top: 10px;
+		font-size: 15px;
+	}
+
+	input[type="submit"]:hover {
+		border: 1px solid white;
+		background-color: black;
+		color: white;
+		cursor: pointer;
+	}
+
+	.title {
+		float: left;
+		width: 160px;
+		clear: right;
+	}
+	
+	.btn{
+		font-size: 20px;
+		color: white;
+		margin-left: 25%;
+	}
+	#btns{
+		margin-top: 5px;
+		margin-right: 30px;
+		align-items: center;
+		margin-left: 35%;
+	}
+
+	select {
+		font-size: 18px;
+		background-color: white;
+		color: black;
+	}
+
+	span{
+		font-size: 18px;
+		margin-top: 10px;
+		float: left;
+		clear: left;
+		color: white;
+	}
+	.submit {
+		margin-top: -15px;
+		text-align: center;
+	}
